@@ -46,10 +46,16 @@
         "illuminate/database": "^9.0.0 || ^10.0.0",
         "illuminate/support": "^9.0.0 || ^10.0.0",
         "kalnoy/nestedset": "^6.0.0",
-        "rinvex/laravel-support": "^7.0.0",
+        "cgh-hhiggins/laravel-support": "dev-master",
         "spatie/laravel-sluggable": "^3.3.0",
         "spatie/laravel-translatable": "^6.0.0"
     },
+    "repositories": [
+        {
+         "type": "vcs",
+            "url": "https://github.com/cgh-hhiggins/laravel-support.git"
+        }
+    ],
     "require-dev": {
         "codedungeon/phpunit-result-printer": "^0.32.0",
         "illuminate/container": "^9.0.0 || ^10.0.0",
